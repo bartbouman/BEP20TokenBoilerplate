@@ -8,6 +8,10 @@ Boilerplate project to start a new BEP20 token
 To get this project running, after checkout run:
 
 - `npm install`
+
+#### Run the tests:
+
+- `npx hardhat test`
   
 ### Running the contract
 
@@ -15,6 +19,7 @@ To get this project running, after checkout run:
 
 - [How to use MetaMask](https://academy.binance.com/en/articles/how-to-use-metamask)
 - [Connecting MetaMask to Binance Smart Chain (BSC)](https://academy.binance.com/nl/articles/connecting-metamask-to-binance-smart-chain)
+- [Fund your wallet address with (testnet) BNB](https://testnet.binance.org/faucet-smart)
 
 #### To run the contract locally:
 
