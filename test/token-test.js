@@ -105,8 +105,7 @@ describe("Token", function () {
     it("should only allow owner to burn token", async function () {
       await this.token.connect(this.bob).burn(this.alice.address, "10")
       await expect(this.token.burn(this.carol.address, "1000")).to.be.revertedWith(
-          "Ownable: caller is not the owner"
-      )
+          "Ownable: caller is not the owner")
       const totalSupply = await this.token.totalSupply()
       const aliceBal = await this.token.balanceOf(this.alice.address)
       const bobBal = await this.token.balanceOf(this.bob.address)
