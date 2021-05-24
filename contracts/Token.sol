@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.7.0;
 
-import "./libraries/Ownable.sol";
+import "./Ownable.sol";
 import "./libraries/SafeMath.sol";
 
 contract Token is Ownable {
