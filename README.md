@@ -9,6 +9,8 @@ To get this project running, after checkout run:
 
 - `npm install`
 
+Optional: Change the total supply, symbol and name in [the token contract](./contracts/Token.sol) and [the tests](./test/token-test.js) to anything you want it to be! 
+
 #### Run the tests:
 
 - `npx hardhat test`
